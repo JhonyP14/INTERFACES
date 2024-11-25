@@ -1,0 +1,120 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colores y fuentes */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #2C3E50;
+    --background-color: #F9F9F9;
+    --text-color: #333;
+    --footer-bg: #34495E;
+    --footer-text: #FFF;
+    --font-family: 'Arial', sans-serif;
+}
+
+/* Estilo general */
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 2rem;
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Perfil */
+.perfil {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.perfil .foto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid var(--primary-color);
+    margin-right: 1.5rem;
+}
+
+.perfil .info h2 {
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.perfil .info p {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+/* Bibliografía */
+.bibliografia {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bibliografia h3 {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.bibliografia ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bibliografia li {
+    margin-bottom: 0.5rem;
+}
+
+.bibliografia li a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.bibliografia li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--footer-bg);
+    color: var(--footer-text);
+}
+
+.footer a {
+    color: var(--footer-text);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
