@@ -1,11 +1,11 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Colores y fuentes */
+
 :root {
     --primary-color: #4CAF50;
     --secondary-color: #2C3E50;
@@ -16,7 +16,7 @@
     --font-family: 'Arial', sans-serif;
 }
 
-/* Estilo general */
+
 body {
     font-family: var(--font-family);
     line-height: 1.6;
@@ -25,7 +25,6 @@ body {
     margin: 0;
 }
 
-/* Header */
 .header {
     text-align: center;
     padding: 2rem;
@@ -33,14 +32,14 @@ body {
     color: white;
 }
 
-/* Contenedor principal */
+
 .container {
     max-width: 1100px;
     margin: 2rem auto;
     padding: 1rem;
 }
 
-/* Perfil */
+
 .perfil {
     display: flex;
     align-items: center;
@@ -70,7 +69,7 @@ body {
     color: var(--text-color);
 }
 
-/* Bibliografía */
+
 .bibliografia {
     background: white;
     padding: 1rem;
@@ -102,7 +101,7 @@ body {
     text-decoration: underline;
 }
 
-/* Footer */
+
 .footer {
     text-align: center;
     padding: 1.5rem;
@@ -118,3 +117,17 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
+
+
+.btn-facebook {
+    background-color: #3b5998;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-facebook:hover {
+    background-color: #2f477a;
+  }
